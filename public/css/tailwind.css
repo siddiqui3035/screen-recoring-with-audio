@@ -930,9 +930,44 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* #btn{
+    height: 35px;
+    width: 120px;
+    background-color: #1a1a1a;
+    font-family: arial;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+} */
+
+/* #frame{
+    width: 850px;
+    height: 500px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#screenshot{
+    position: absolute;
+    top: 120px;
+    left: 370px;
+} */
+
 .hover\:bg-gray-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gradient-to-r:hover {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
 .hover\:text-white:hover {

@@ -110,3 +110,5 @@ window.addEventListener('load', () => {
     startButton.addEventListener('click', startRecording);
     stopButton.addEventListener('click', stopRecording);
 })
+
+
